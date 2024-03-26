@@ -1,3 +1,4 @@
+
 .bg-custom-page{
     background-color: #606060;
 }
@@ -10,4 +11,29 @@
 }
 @media screen {
     
+}
+.container-fluid {
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 110%; /* Adjust as needed */
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #606060; /* Adjust opacity as needed */
+    color: white;
+    padding: 20px;
+    z-index: 1;
+    max-width: 100%; /* Adjust width as needed */
+    text-align: center;
+
+}
+
+.header-overlay p {
+    margin-bottom: 10px;
+}
+.about-header{
+    opacity: .5;
 }
