@@ -44,8 +44,9 @@
           </ul>
           <div class="text-end">
             <button type="button" class="btn btn-outline-light me-2">Login</button>
-
-            <button type="button" class="btn btn-warning">Sign-up</button>
+            <a href="sign.html">
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </a>
           </div>
 
         </div>
@@ -56,61 +57,51 @@
       <div class="container-fluid">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Fitness</a>
+            <a class="nav-link" href="studios.html">Fitness</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Visual Arts</a>
+            <a class="nav-link" href="studios.html">Visual Arts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Culinary</a>
+            <a class="nav-link" href="studios.html">Culinary</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Music</a>
+            <a class="nav-link" href="studios.html">Music</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bussiness</a>
+            <a class="nav-link" href="studios.html">Bussiness</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Yoga</a>
+            <a class="nav-link" href="studios.html">Yoga</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- Courosel -->
-    <div class="container">
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="include/images/webConnection1.jpg" alt="Piano class" class="d-block w-100">
-            <div class="carousel-caption d-none d-md-block text-center">
-              <h1 class="display-3">Lifehub</h1>
-              <p></p>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <header class="header">
+            <div class="overlay"></div>
+            <div class="center">
+              <div class="header-content">
+                <h1 class="text-light">Lifehub</h1>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="include/images/cookingTable.jpg" alt="Chicago" class="d-block w-100">
-            <div class="carousel-caption">
-              <h3>Chicago</h3>
-              <p>TEXT HERE</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="include/images/art-studio.jpg" alt="New York" class="d-block w-100">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>TEXT HERE</p>
-            </div>
-          </div>
+          </header>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <!-- Add more carousel items if needed -->
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <div class="row container justify-content-end">
       <div class="col-md-4 text-light p-5 m-5">
@@ -198,4 +189,3 @@
 </body>
 
 </html>
-

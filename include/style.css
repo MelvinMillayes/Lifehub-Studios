@@ -1,32 +1,35 @@
-
-.bg-custom-page{
+.bg-custom-page {
     background-color: #606060;
 }
-.bg-custom-nav{
+
+.bg-custom-nav {
     background-color: #EBAE49;
 }
 
-.round-corners{
+.round-corners {
     border-radius: 43px;
 }
-@media screen {
-    
-}
+
+@media screen {}
+
 .container-fluid {
     position: relative;
 }
 
 .header-overlay {
     position: absolute;
-    top: 110%; /* Adjust as needed */
+    top: 110%;
+    /* Adjust as needed */
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
-    background-color: #606060; /* Adjust opacity as needed */
+    background-color: #606060;
+    /* Adjust opacity as needed */
     color: white;
     padding: 20px;
     z-index: 1;
-    max-width: 100%; /* Adjust width as needed */
+    max-width: 100%;
+    /* Adjust width as needed */
     text-align: center;
 
 }
@@ -34,48 +37,67 @@
 .header-overlay p {
     margin-bottom: 10px;
 }
-.about-header{
+
+.about-header {
     opacity: .5;
 }
-.wp-block-image img {
+
+.wp-block-image {
     box-sizing: border-box;
-    height: auto;
+    width:524;
+    height:324;
     max-width: 100%;
     vertical-align: bottom;
 }
 
-.container-custom{
+.container-custom {
     position: relative;
     text-align: center;
 }
+
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-  }
+}
 
-  .header {
+.header {
     position: relative;
-    background-image: url('images/cropped-Section-1-pic-1-scaled-1.jpg'); /* Specify the path to your image */
+    background-image: url('images/cropped-Section-1-pic-1-scaled-1.jpg');
+    /* Specify the path to your image */
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust the height as needed */
-  }
-  .overlay {
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (opacity) value to control darkness */
-  }
-  .header-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the alpha (opacity) value to control darkness */
+}
+
+.header-content {
     position: relative;
     text-align: center;
-  }
-  .studio{
-    font-weight: 45px;
+}
+
+.studio {
+    font-weight: 85px;
     font-weight: bold;
-  }
+}
+
+@media only screen and (max-width: 381px) {
+    .wp-block-image{
+        box-sizing: border-box;
+        height: auto;
+        width: 150px;
+        height: 100px;
+    }
+}
