@@ -1,5 +1,22 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %}
 
 {% block content %}
-        
+<h1>Posts</h1>
+<ul class="list-group list-group-flush" id="news">
+    {% for news in user.post %}
+    <li class="list-group-item"> {{ news.data }}
+
+        <button type="button" class="close" onclick="deletePost({{ news.id }})" <span aria-hidden="true">&times;</span>
+    </li>
+
+    {% endfor %}
+</ul>
+<form method="POST">
+    <textarea name="news" id="news" class="form-control"></textarea>
+    <div class="text-center"></div>
+    <button type="submit" class="btn btn-primary mt-2">Add post</button>
+
+</form>
+
+<!--Dashboard goes here-->
 {% endblock %}
