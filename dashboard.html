@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="include/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/adminStyle.css">
+    
+  </head>
+<body>
+    <div class="container-fluid p-0 bg-custom-page">
+        <!--First Nav-bar-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-custom-nav container-fluid ">
+          <div class="container-fluid">
+            <a class="navbar-brand pb-3" href="index.html">
+              <img src="include/images/lifehub1.jpg" height="50" alt="lifehub logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+    
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+              </form>
+    
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="indtructor.html">Become an Instructor</a>
+                </li>
+              </ul>
+              <div class="text-end">
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Joel</b></p>
+                        <small class="text-muted">Instructor</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./include/images/profile-pic.png" alt="profile-photo">
+                    </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </nav>
+        <!--Second Navbar-->
+    
+        <nav class="navbar navbar-expand-sm bg-light">
+          <div class="container-fluid">
+          <div class="course-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Fitness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Visual Arts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Culinary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Bussiness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studios.html">Yoga</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+        
+
+        <!--Top row analytics-->
+        <main>
+          <div class="container-fluid">
+          <h1 id="dashboardHeader">Dashboard</h1>
+
+          <div class="date">
+            <input type="date">
+          </div>
+          <div class="insight">
+            <!--Total visits analytics box-->
+            <div class="visits">
+              <span class="material-icons">person</span>
+              <div class="middle">
+                <div class="left">
+                  <h3>Total Visits</h3>
+                  <h1>20,013</h1>
+                </div>
+                <div class="progress">
+                  <svg>
+                    <circle cx='38' cy='38' r='36'></circle>
+                  </svg>
+                  <div class="number">
+                    <p>53%</p>
+                  </div>
+                </div>
+              </div>
+              <small class="text-muted">Last 24 Hours</small>
+            </div>
+            <!--End of visits-->
+
+            <!--Total live views analytics box-->
+            <div class="liveViews">
+              <span class="material-icons">visibility</span>
+              <div class="middle">
+                <div class="left">
+                  <h3>Live Views</h3>
+                  <h1>2,008</h1>
+                </div>
+                <div class="progress">
+                  <svg>
+                    <circle cx='38' cy='38' r='36'></circle>
+                  </svg>
+                  <div class="number">
+                    <p>89%</p>
+                    </div>
+                </div>
+              </div>
+              <small class="text-muted">Last 24 Hours</small>
+            </div>
+            <!--End of live views-->
+
+            <!--Total on-demand views analytics box-->
+            <div class="onDemandViews">
+              <span class="material-icons">slideshow</span>
+              <div class="middle">
+                <div class="left">
+                  <h3>On-Demand Views</h3>
+                  <h1>8,193</h1>
+                </div>
+                <div class="progress">
+                  <svg>
+                    <circle cx='38' cy='38' r='36'></circle>
+                  </svg>
+                  <div class="number">
+                    <p>71%</p>
+                  </div>
+                </div>
+              </div>
+              <small class="text-muted">Last 24 Hours</small>
+            </div>
+            <!--End of live views-->
+          </div>
+          <!--End of insights-->
+          
+        </div>
+        
+        <div class="comments">
+          <h2>Recent comments</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Comment</th>
+                <th>Video</th>
+                <th>Follower</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Andre3000</td>
+                <td>Tastes AMAZING!</td>
+                <td>Soul Kitchen</td>
+                <td class="success">Yes</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>BigMac47</td>
+                <td>Reminds me of grandmas</td>
+                <td>Soul Kitchen</td>
+                <td class="success">Yes</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>ShugaKane</td>
+                <td>You have to add more sugar!!!</td>
+                <td>Soul Kitchen</td>
+                <td class="danger">No</td>
+                <td class="primary">Details</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+        </main>
+        <!--END of MAIN-->
+        <div class="right">
+            <div class="top">
+                <div class="trendingVideos">
+                    <h2>Top Videos</h2>
+                    <ol type="A">
+                        <li>Cooking with Soul</li>
+                        <li>Cooking with Grandma</li>
+                        <li>Old Fashioned Cookin</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+    </div>  
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
